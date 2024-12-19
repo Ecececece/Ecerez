@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="sepetstyle.css">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ecerez</title>
+</head>
+<body class="yuz-yuz screen">
+	<div class="just-center align-center navbar" style="position: fixed; top: 0; background-color: #A9B388;">
+		<a href="urunler.html" class="just-center align-center button">Ürünler</a>
+		<a href="sepetim.html" class="just-center align-center button" style="box-shadow: 2px 2px 5px #5F6F52;">Sepetim</a>
+		<div style="position: relative;">
+			<a href="index.html"><img src="antepfistik.png" class="antepfistik" style="height: 75px; right: -10px; top: -10px;"></a>
+			<a href="index.html"><img src="antepfistik.png" class="antepfistik" style="height: 75px; left: -20px; bottom: -8px;"></a>
+			<a href="index.html" class="just-center align-center normal-logo navbar-logo">Ecerez</a>
+		</div>
+		<a href="kargo.html" class="just-center align-center button">Kargo Takip</a>
+		<a href="iletisim.html" class="just-center align-center button">İletişim</a>
+	</div>
+
+	<div class="sepet-screen">
+		<div class="sepet" id="sepet">
+			<div class="sepet-urunler" id="sepet-urunler"></div>
+		</div>
+		
+		<div class="just-center align-center sepet-onay">
+			<div class="just-center sepet-onay-isim">Sepetim</div>
+
+			<div class="sepet-secim">
+				<div>Kargo Firması:</div>
+				<select name="kargo-firma" id="kargo-firma" class="kargo-firma">
+					<option value="ucretsiz">Ücretsiz Kargo(+0TL)</option>
+					<option value="mng">MNG Kargo(+15TL)</option>
+					<option value="yurtici">Yurtiçi Kargo(+22TL)</option>
+					<option value="ptt">PTT Kargo(+35TL)</option>
+				</select>
+			</div>
+			
+			<div style="display: flex; flex-direction: column; margin-top: 50px; margin-bottom: 50px; gap:20px;">
+				<div id="urunlerin-fiyat">Sepet Fiyatı : 0 TL</div>
+				<div id="kdv">KDV(%1) : 0 TL</div>
+
+				<div style="display: flex; flex-direction: row;">
+					<div style="margin-right: 8px;">Toplam Fiyat :</div> <div id="toplam-fiyat">0 TL</div> <div id="indirim-fiyat"></div>
+				</div>
+			</div>
+
+			<div class="just-center align-center sepet-onayla" id="sepetonay">Sepeti Onayla</div>
+		</div>
+	</div>
+
+	<script src="sepet.js"></script>
+</body>
+</html>

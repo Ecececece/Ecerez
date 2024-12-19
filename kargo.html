@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<link rel="stylesheet" href="kargostyle.css">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ecerez</title>
+</head>
+<body class="yuz-yuz screen">
+	<div class="just-center align-center navbar">
+		<a href="urunler.html" class="just-center align-center button">Ürünler</a>
+		<a href="sepetim.html" class="just-center align-center button">Sepetim</a>
+		<div style="position: relative;">
+			<a href="index.html"><img src="antepfistik.png" class="antepfistik" style="height: 75px; right: -10px; top: -10px;"></a>
+			<a href="index.html"><img src="antepfistik.png" class="antepfistik" style="height: 75px; left: -20px; bottom: -8px;"></a>
+			<a href="index.html" class="just-center align-center normal-logo navbar-logo">Ecerez</a>
+		</div>
+		<a href="kargo.html" class="just-center align-center button" style="box-shadow: 2px 2px 5px #5F6F52;">Kargo Takip</a>
+		<a href="iletisim.html" class="just-center align-center button">İletişim</a>
+	</div>
+
+	<div class="just-center align-center">
+		<div class="kargo-screen">
+			<div class="just-center kargo-isim">Kargo Takip</div>
+			<div class="just-center align-center kargo-no-giris" id="kargourunlerDiv">
+				<div style="display: flex; flex-direction: row;">
+					<div>Kargo No:</div>
+					<input type="text" class="just-center align-center kargo-no" id="kargono">
+				</div>
+
+				<div class="just-center align-center kargo-no-onay" id="kargokontrol">Kontrol Et</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="kargo.js"></script>
+</body>
+</html>

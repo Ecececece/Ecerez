@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+.yuz-yuz{
+    height: 100%;
+	width: 100%;
+}
+
+.just-center{
+    display: flex;
+	justify-content: center;
+}
+
+.align-center{
+    display: flex;
+    align-items: center;
+}
+
+.screen{
+    margin: 0px;
+
+    background-color: #A9B388;
+    font-family: 'Delicious Handrawn';
+}
+
+.button{
+    height: 75px;
+	width: 150px;
+
+    background-color: #FEFAE0;
+	border: 4px solid #B99470;
+	border-radius: 50px;
+
+	font-size: 24pt;
+	color: #5F6F52;
+	user-select: none;
+    text-decoration: none;
+}
+
+.button:hover{
+	box-shadow: 2px 2px 5px #5F6F52;
+	transition-duration: 0.3s;
+}
+
+.normal-logo{
+    background-color: #FEFAE0;
+	border: 5px solid #B99470;
+	border-radius: 100%;
+
+	color: #5F6F52;
+	user-select: none;
+    text-decoration: none;
+}
+
+.navbar-logo{
+	height: 150px;
+	width: 150px;
+
+	font-size: 32pt;
+}
+
+.navbar-logo:hover{
+	box-shadow: 2px 2px 5px #5F6F52;
+	transition-duration: 0.3s;
+}
+
+.navbar{
+	height: auto;
+	width: 100%;
+	flex-direction: row;
+	gap: 30px;
+
+	border-bottom: 4px solid #5F6F52;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	box-shadow: 2px 2px 5px #5F6F52;
+}
+
+.antepfistik{
+	width: auto;
+	position: absolute;
+
+	filter: drop-shadow(2px 2px 5px #5F6F52);
+}
+
+.kargo-screen{
+    height: 710px;
+	width: 60%;
+	flex-direction: column;
+
+	background: #FEFAE0;
+	border: 4px solid #B99470;
+	border-radius: 50px;
+	box-shadow: 2px 2px 5px #5F6F52;
+
+	font-size: 32pt;
+	color: #5F6F52;
+	user-select: none;
+	text-decoration: none;
+
+	margin-top: 30px;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.kargo-isim{
+    width: 100%;
+
+	border-bottom: 4px solid #B99470;
+	padding-bottom: 10px;
+}
+
+.kargo-no-giris{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 200px;
+}
+
+.kargo-no{
+    width: 500px;
+	align-items: right;
+
+	background-color: #A9B388;
+	border: 4px solid #5F6F52;
+	border-radius: 50px;
+
+	font-family: 'Delicious Handrawn', cursive;
+	font-size: 24pt;
+	color: #FEFAE0;
+	outline: none;
+
+	margin-right: 10px;
+	padding-left: 20px;
+}
+
+.kargo-no-onay{
+    height: 70px;
+	width: 70%;
+
+	background-color: #A9B388;
+	border: 4px solid #5F6F52;
+	border-radius: 50px;
+
+	font-family: 'Delicious Handrawn', cursive;
+	font-size: 22pt;
+	color: #FEFAE0;
+	user-select: none;
+	text-decoration: none;
+
+	margin-top: 20px;
+
+	cursor: pointer;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #FEFAE0;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #5F6F52;
+	border-radius: 10px;
+}
+
+.sepet-urun {
+	height: 160px;
+	width: calc(90% / 2 - 30px);
+
+	background: #FEFAE0;
+	box-shadow: 2px 2px 5px #5F6F52;
+	border: 4px solid #B99470;
+	border-radius: 50px;
+
+	font-size: 36pt;
+	color: #5F6F52;
+	user-select: none;
+	text-decoration: none;
+
+	padding: 20px;
+}
+
+.sepet-urun-image{
+	height: 100%;
+	aspect-ratio: 1;
+
+	border: 4px solid #B99470;
+	border-radius: 50px;
+	object-fit: cover;
+
+	margin-right: 30px;
+}
+
+.sepet-urun-isim{
+	border-bottom: 4px solid #B99470;
+	font-size: 24pt;
+	padding-bottom: 10px;
+    text-align: center;
+}
+
+.sepet-urun-gramaj{
+	width: 100%;
+	flex-direction: row;
+	margin-top: 20px;
+	font-size: 24pt;
+}
+
+.sepet-urun-gram{
+	width: 150px;
+
+	background-color: #A9B388;
+	border: 4px solid #5F6F52;
+	border-radius: 50px;
+
+	color: #FEFAE0;
+
+	margin-right: 10px;
+	padding-left: 20px;
+}
+
+.sepet-urun-fiyat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+    font-size: 22pt;
+}
